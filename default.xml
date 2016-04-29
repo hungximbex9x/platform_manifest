@@ -521,6 +521,14 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
+  
+  <!-- Missing Repositories from hal_cm_all.xml -->
+  <project path="hardware/ril" remote="cm" name="CyanogenMod/android_hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" remote="cm" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" remote="cm" />
+  <project path="vendor/qcom/opensource/display-frameworks" remote="cm" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
+  <project path="vendor/qcom/opensource/dpm" remote="cm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/time-services" remote="cm" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 
   <!-- ASUS Zenfone 5 specific code -->
   <project path="device/asus/ctp-common" name="zf5/android_device_asus_ctp-common" remote="bitbucket" revision="refs/heads/marshmallow" />
