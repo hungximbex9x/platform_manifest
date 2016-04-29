@@ -1,38 +1,43 @@
-[Android Open Kang Project](http://aokp.co)
-====================================
+Android Open Kang Project (Zenfone 5)
+=====================================
 
-![Kanged Unicorn](http://aokp.co/images/cms-images/106.png)
+Getting Started
+---------------
 
-Download the Source
-===================
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-Initializing Repository
------------------------
+    repo init -u git://github.com/zf5aokp/platform_manifest.git -b mm
 
-Initiate core trees without any device/kernel/vendor:
+Then to sync up:
 
-    $ repo init -u https://github.com/AOKP/platform_manifest.git -b mm
+    repo sync -c -j16
 
-Sync the repository:
+Patching
+--------
 
-    $ repo sync
+Use the files from the `Patch` repository on BitBucket and patch the respective folders.
 
-***
+Search on how to apply a patch file.
 
 Building
 --------
 
-After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+This manifest will already come with the Zenfone 5 device files,
+so all you need to do is build it.
 
     . build/envsetup.sh
-    lunch
 
-You can also build for specific devices (eg. hammerhead) like this:
+    lunch aokp_T00F-user
 
-    . build/envsetup.sh
-    lunch aokp_hammerhead-userdebug
-    mka rainbowfarts
+    mka rainbowfarts -j16
 
-Remember to `make clobber && make clean` every now and then!
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) or [Android Docs](https://source.android.com/source/building.html) for more building instructions.
+
+Submitting Issues
+-----------------
+
+To submit an issue, please go to [Create issue](https://bitbucket.org/zf5/android/issues/new) and explain your issue.
+Don't forget to include a logcat.

@@ -9,6 +9,9 @@
   <remote  name="github"
            fetch=".." />
 
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org" />
+
   <remote  name="aokp"
            revision="refs/heads/mm"
            fetch=".."
@@ -59,12 +62,12 @@
   <project path="dalvik" remote="cm" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" remote="cm" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" remote="cm" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" remote="cm" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" remote="cm" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
+  <!-- <project path="device/generic/arm64" remote="cm" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
+  <project path="device/generic/armv7-a-neon" remote="cm" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" /> -->
   <project path="device/generic/common" remote="cm" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" remote="cm" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" remote="cm" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-  <project path="device/google/atv" remote="cm" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
+  <!-- <project path="device/generic/mips" remote="cm" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
+  <project path="device/google/atv" remote="cm" name="CyanogenMod/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" /> -->
   <project path="external/android-clat" remote="cm" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-mock" remote="cm" name="CyanogenMod/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-visualizer" remote="cm" name="CyanogenMod/android_external_android-visualizer" />
@@ -193,27 +196,27 @@
   <project path="frameworks/volley" remote="cm" name="CyanogenMod/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" remote="cm" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" remote="cm" name="CyanogenMod/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="hardware/akm" remote="cm" name="CyanogenMod/android_hardware_akm" />
+  <!-- <project path="hardware/akm" remote="cm" name="CyanogenMod/android_hardware_akm" /> -->
   <project path="hardware/broadcom/libbt" remote="cm" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" remote="cm" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/cm" remote="cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/cyanogen" remote="cm" name="CyanogenMod/android_hardware_cyanogen" />
-  <project path="hardware/intel/common/libmix" remote="cm" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
+  <!-- <project path="hardware/intel/common/libmix" remote="cm" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
   <project path="hardware/intel/common/libva" remote="cm" name="CyanogenMod/android_hardware_intel_common_libva" groups="intel" />
   <project path="hardware/intel/common/libwsbm" remote="cm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
   <project path="hardware/intel/common/omx-components" remote="cm" name="CyanogenMod/android_hardware_intel_common_omx-components" groups="intel" />
   <project path="hardware/intel/img/hwcomposer" remote="cm" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
   <project path="hardware/intel/img/psb_headers" remote="cm" name="CyanogenMod/android_hardware_intel_img_psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" remote="cm" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
+  <project path="hardware/intel/img/psb_video" remote="cm" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" /> -->
   <project path="hardware/invensense" remote="cm" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" remote="cm" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" remote="cm" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
-  <include name="snippets/hal_cm_all.xml" />
+  <!-- <include name="snippets/hal_cm_all.xml" />
   <project path="hardware/samsung_slsi/exynos5" remote="cm" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" remote="cm" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4xxx" remote="cm" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" remote="cm" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" remote="cm" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="hardware/ti/wpan" remote="cm" name="CyanogenMod/android_hardware_ti_wpan" /> -->
   <project path="libcore" remote="cm" name="CyanogenMod/android_libcore" groups="pdk" />
   <project path="libnativehelper" remote="cm" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" remote="cm" name="CyanogenMod/android_packages_apps_AudioFX" />
@@ -224,7 +227,7 @@
   <project path="packages/apps/Calendar" remote="cm" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" remote="cm" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" remote="cm" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" remote="cm" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
+  <!-- <project path="packages/apps/CellBroadcastReceiver" remote="cm" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" /> -->
   <project path="packages/apps/CertInstaller" remote="cm" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-fs" />
   <project path="packages/apps/CMFileManager" remote="cm" name="CyanogenMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMWallpapers" remote="cm" name="CyanogenMod/android_packages_apps_CMWallpapers" />
@@ -236,14 +239,14 @@
   <project path="packages/apps/Email" remote="cm" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" remote="cm" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Exchange" remote="cm" name="CyanogenMod/android_packages_apps_Exchange" groups="pdk-fs" />
-  <project path="packages/apps/FMRadio" remote="cm" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" />
+  <!-- <project path="packages/apps/FMRadio" remote="cm" name="CyanogenMod/android_packages_apps_FMRadio" groups="pdk-fs" /> -->
   <project path="packages/apps/Gallery2" remote="cm" name="CyanogenMod/android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" remote="cm" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" remote="cm" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/LockClock" remote="cm" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" remote="cm" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" remote="cm" name="CyanogenMod/android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" remote="cm" name="CyanogenMod/android_packages_apps_Nfc" />
+  <!-- <project path="packages/apps/Nfc" remote="cm" name="CyanogenMod/android_packages_apps_Nfc" /> -->
   <project path="packages/apps/PackageInstaller" remote="cm" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" remote="cm" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" remote="cm" name="CyanogenMod/android_packages_apps_Profiles" />
@@ -253,14 +256,14 @@
   <project path="packages/apps/Snap" remote="cm" name="CyanogenMod/android_packages_apps_Snap" />
   <project path="packages/apps/SoundRecorder" remote="cm" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" remote="cm" name="CyanogenMod/android_packages_apps_SpeechRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" remote="cm" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
-  <project path="packages/apps/Tag" remote="cm" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" />
+  <!-- <project path="packages/apps/Stk" remote="cm" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Tag" remote="cm" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" /> -->
   <project path="packages/apps/Terminal" remote="cm" name="CyanogenMod/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/ThemeChooser" remote="cm" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Trebuchet" remote="cm" name="CyanogenMod/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/TvSettings" remote="cm" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" />
+  <!-- <project path="packages/apps/TvSettings" remote="cm" name="CyanogenMod/android_packages_apps_TvSettings" groups="generic_fs" /> -->
   <project path="packages/apps/UnifiedEmail" remote="cm" name="CyanogenMod/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/experimental" remote="cm" name="CyanogenMod/android_packages_experimental" />
+  <!-- <project path="packages/experimental" remote="cm" name="CyanogenMod/android_packages_experimental" /> -->
   <project path="packages/inputmethods/LatinIME" remote="cm" name="CyanogenMod/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" remote="cm" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" remote="cm" name="CyanogenMod/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -271,7 +274,7 @@
   <project path="packages/providers/PartnerBookmarksProvider" remote="cm" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" remote="cm" name="CyanogenMod/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/ThemesProvider" remote="cm" name="CyanogenMod/android_packages_providers_ThemesProvider" />
-  <project path="packages/providers/TvProvider" remote="cm" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" />
+  <!-- <project path="packages/providers/TvProvider" remote="cm" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" /> -->
   <project path="packages/providers/UserDictionaryProvider" remote="cm" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/WeatherProvider" remote="cm" name="CyanogenMod/android_packages_providers_WeatherProvider" />
   <project path="packages/screensavers/Basic" remote="cm" name="CyanogenMod/android_packages_screensavers_Basic" groups="pdk-fs" />
@@ -301,18 +304,18 @@
   <!-- AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
+  <!-- <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
+  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" /> -->
   <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
+  <!-- <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" /> -->
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!-- <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" /> -->
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -465,7 +468,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
+  <!-- <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp"/>
@@ -481,37 +484,37 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" /> -->
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
-  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" remote="aosp" clone-depth="1" />
+  <!-- <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" remote="aosp" clone-depth="1" /> -->
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" remote="aosp" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" clone-depth="1" />
+  <!-- <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips,notdefault" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" clone-depth="1" /> -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips,notdefault" remote="aosp" clone-depth="1" />
+  <!-- <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips,notdefault" remote="aosp" clone-depth="1" /> -->
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" clone-depth="1" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" clone-depth="1" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
+  <!-- <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" /> -->
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" remote="aosp" clone-depth="1" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" clone-depth="1" />
@@ -519,4 +522,12 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 
+  <!-- ASUS Zenfone 5 specific code -->
+  <project path="device/asus/ctp-common" name="zf5/android_device_asus_ctp-common" remote="bitbucket" revision="refs/heads/marshmallow" />
+  <project path="device/asus/T00F" name="zf5/android_device_asus_t00f" remote="bitbucket" revision="refs/heads/marshmallow" />
+  <project path="vendor/asus/ctp-common" name="zf5/android_vendor_asus_ctp-common" remote="bitbucket" revision="refs/heads/marshmallow" />
+  <project path="vendor/asus/T00F" name="zf5/android_vendor_asus_t00f" remote="bitbucket" revision="refs/heads/marshmallow" />
+
+  <!-- Intel specific code -->
+  <project path="hardware/intel" name="zf5/android_hardware_intel" groups="intel" remote="bitbucket" revision="refs/heads/marshmallow" />
 </manifest>
